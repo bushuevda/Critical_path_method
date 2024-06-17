@@ -30,7 +30,7 @@ namespace nplann{
     void print_critical_path(const std::vector<int> &critical_path, std::ios &init);
 
     //Вывод резервов работы+
-    void print_reserve(std::vector<std::map<std::string, int>> &reserve);
+    void print_reserve(const std::vector<std::map<std::string, int>> &reserve);
 
     //Вычисление параметров сетевой модели
     void calculate_parameters(const std::vector<std::vector<int>> &matrix);
